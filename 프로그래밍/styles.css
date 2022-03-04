@@ -172,7 +172,7 @@ header{
 }
 /*end*/
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1068px){
     .iphone-11-pro{
         background: url("/Users/jeongsc/Desktop/프로그래밍/iphone/iphone_11_pro_medium.jpg");
     }
@@ -211,7 +211,7 @@ header{
     }
 }
 
-@media screen and (max-width: 787px){
+@media screen and (max-width: 767px){
     header{
         height: 4.8rem;
         transition: background .36s cubic-bezier(0.32, 0.08, 0.24, 1), 
@@ -293,7 +293,7 @@ header{
     .nav-link-apple{
         width: 1.8rem;
         height: 4.8rem;
-        position:relative;
+        position: relative;
         z-index: 1500;
     }
 
@@ -314,7 +314,7 @@ header{
     }
 
     .nav-list-larger{
-        position: fixes;
+        position: fixed;
         top: 0;
         left: 0;
         width: 0;
@@ -323,6 +323,8 @@ header{
         padding: 10.5rem 5rem;
         z-index: 1000;
         box-sizing: border-box;
+        opacity: 0;
+        visibility: hidden;
         transition: opacity .3s;
     }
 
@@ -330,6 +332,7 @@ header{
         width: 100%;
         height: 100%;
         opacity: 1;
+        visibility: visible;
     }
 
     .active .nav-link-bag{
@@ -337,5 +340,77 @@ header{
         transition: opacity .3s;
     }
 
-    .nav-list-larger .nav-item
+    .nav-list-larger .nav-item{
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: 2px solid rgba(255,255,255,.1);
+    }
+
+    .nav-list-larger .nav-item:nth-child(9){
+        border-bottom: none;
+    }
+
+    .active .nav-list-larger .nav-item{
+        animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
 }
+
+@media screen and (max-width: 735px){
+    .iphone-11-pro{
+        background: url("/Users/jeongsc/Desktop/프로그래밍/iphone/iphone_11_pro_small.jpg");
+    }
+
+    .iphone-11{
+    background: url("/Users/jeongsc/Desktop/프로그래밍/iphone/iphone_11_small.jpg");
+    }
+
+    .watch{
+        background: url("/Users/jeongsc/Desktop/프로그래밍/iphone/watch_small.jpg");
+    }
+
+    .hero{
+        height: 50rem;
+        background-size: auto 54.8rem;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+    }
+
+    .title{
+        padding: 3.7rem;
+    }
+
+    .title-heading{
+        font-size: 3.2rem;
+    }
+
+    .title-sub-heading{
+        font-size: 1.9rem;;
+    }
+
+    .title-heading-watch{
+        margin-top: -.5rem;
+        margin-bottom: 0;
+    }
+
+    .title-price{
+        font-size: 1.4rem;;
+    }
+
+    .cta{
+        margin-top: .7rem;
+    }
+
+    .cta-link{
+        font-size: 1.9rem;
+    }
+}
+
