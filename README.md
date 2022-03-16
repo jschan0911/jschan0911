@@ -12,6 +12,8 @@
 - 객체지향프로그램 (공간정보공학과, C++) : A0
 - 객체지향프로그래밍1 (컴퓨터공학과, C++) : A+
 
+
+글리치...
 <!---
 jschan0911/jschan0911 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
