@@ -1,5 +1,6 @@
 - 12201301 정승찬
 - 주전공: 공간정보공학 | 연계전공: 소프트웨어융합공학(2022~)
+<!---
 - -------
 - [프로젝트 경험]
 - 창의적 공학설계 : B+
@@ -13,7 +14,6 @@
 - 객체지향프로그래밍1 (컴퓨터공학과, C++) : A+
 
 
-<!---
 jschan0911/jschan0911 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 글리치
